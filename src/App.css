@@ -1,0 +1,142 @@
+/* .App {
+  text-align: center;
+} 
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+.App {
+  height: 1000px;
+  width: auto;
+  background-image: url("/bb.png");
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+Nav {
+  padding-right: 40px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+  font-size: large;
+  background-color:rgba(231, 150, 29);
+  height: 40px;
+}
+.signlog{
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  height: auto;
+  width: auto;
+}
+
+input{
+  margin: 15px;
+  width: 200px;
+  height: 25px;
+}
+.subject-submit{
+  width: 120px;
+  height: 32px;
+}
+.booklist{
+  margin-top: 50px;
+  display: inline-grid;
+  grid-template-columns: 350px 350px 350px;
+  
+}
+.add{
+  text-align:end;
+  margin-bottom: 10px;
+}
+p{
+  text-align: center;
+}
+.home{
+  padding: 5px;
+  text-align: center;
+  height:1500px;
+  background-image: url("/bb.png");
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.shelf{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 5px;
+  text-align: center;
+  height:auto;
+  background-image: url("/bb.png");
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.list{
+  width: 700px;
+  height: 500px;
+  margin: 20px auto;
+  text-align: center;
+}
+.comment{
+  margin: 10px 15px;
+  height: 50px;
+  width: 300px;
+  text-align: center;
+}
+.deletebook{
+  height: 30px;
+  width: 150px;
+}
+.commentbar{
+  height: 500px;
+  width: 300px;
+  font: 1em sans-serif;
+}
+.refresh{
+  margin-left: 10px;
+}
+.publish{
+  height: 30px;
+  margin: 8px;
+}
+.see{
+  height: 30px;
+  margin: 8px;
+}
